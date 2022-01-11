@@ -5,19 +5,19 @@
     <title>bangcuuchuong</title>
 </head>
 <body>
+<H2>BẢNG CỬU CHƯƠNG CỦA CẢNH HIHI</H2>
 <script>
     let bang;
-    bang= "<table border='1'>"
+    bang= "<table border='1' width='800' cellspacing='0'>"
     for (let i = 2; i <10 ; i++) {
-        bang +="<tr>"
+        bang +="<tr>";
         for (let j = 2; j <10 ; j++) {
-            bang +=("<td>"+i+"x"+j+"="+i*j+"</td>")
-
+            bang +=("<td>"+j+"x"+i+"="+i*j+"</td>");
         }
-        bang+="</tr>"
+        bang+="</tr>";
     }
-    bang+= "</table>"
-    document.write(bang)
+    bang+= "</table>";
+    document.write(bang);
 </script>
 </body>
 </html>
